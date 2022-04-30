@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
 
     <!-- Custom CSS -->
 
@@ -377,6 +377,171 @@
       </div>
 
       <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <h1 class="h1">Bootstrap Forms</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <form action="#" method="post" class="form-control">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  name="name"
+                  id="nameExample"
+                  class="form-control"
+                  placeholder="Ej. Axel Cordova"
+                />
+                <label for="name" class="form-label">Enter your name</label>
+              </div>
+              <div class="form-group mb-2">
+                <label for="email" class="form-label">Enter your email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="emailExample"
+                  class="form-control"
+                  placeholder="example@domain.com"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label for="password" class="form-label"
+                  >Enter your password</label
+                >
+                <input
+                  type="password"
+                  name="password"
+                  id="passwordExample"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label for="bio" class="form-label">Bio</label>
+                <textarea
+                  name="bio"
+                  id="textareaExample"
+                  rows="4"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <div class="form-group mb-2">
+                <label for="file" class="form-label">Choose your file</label>
+                <input
+                  type="file"
+                  name="file"
+                  id="filePickeExample"
+                  class="form-control"
+                />
+              </div>
+              <div class="from-group mb-2">
+                <label for="color" class="form-label"
+                  >Choose your favorite color</label
+                >
+                <input
+                  type="color"
+                  name="color"
+                  id="colorpickerExample"
+                  class="form-control form-control-color"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label for="selectExample" class="form-label"
+                  >Select your framework</label
+                >
+                <select
+                  name="selectExample"
+                  id="selectExample"
+                  class="form-select"
+                >
+                  <option selected>Choose your framework</option>
+                  <option value="react">React.js</option>
+                  <option value="angular">Angular</option>
+                  <option value="vue">Vue.js</option>
+                </select>
+              </div>
+              <div class="from-group mb-2">
+                <label for="" class="form-label"
+                  >Select multiple utilities</label
+                >
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkboxBabel"
+                  />
+                  <label class="form-check-label" for="checkboxBabel">
+                    Babel
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkboxWebpack"
+                  />
+                  <label class="form-check-label" for="checkboxWebpack">
+                    Webpack
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkboxMocha"
+                  />
+                  <label class="form-check-label" for="checkboxMocha">
+                    Mocha
+                  </label>
+                </div>
+              </div>
+              <div class="form-group mb-2">
+                <label for="" class="form-label"
+                  >JavaScript or TypeScript</label
+                >
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="jsorts"
+                    id="radioJS"
+                  />
+                  <label class="form-check-label" for="radioJS">
+                    JavaScript
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="jsorts"
+                    id="radioTS"
+                    checked
+                  />
+                  <label class="form-check-label" for="radioTS">
+                    TypeScript
+                  </label>
+                </div>
+              </div>
+              <div class="form-group mb-2">
+                <label for="rangeComplexity" class="form-label"
+                  >Complexity</label
+                >
+                <input
+                  type="range"
+                  name="rangeComplexity"
+                  id="rangeComplexity"
+                  class="form-range"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer mt-auto py-3 bg-light">
