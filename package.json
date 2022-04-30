@@ -1,0 +1,45 @@
+{
+  "name": "bootstrap-developer-2",
+  "version": "1.0.0",
+  "description": "A software developer who is able to use Bootstrap to simplify use of CSS in a website and format content appropriately.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "webpack"
+  ],
+  "author": "Axel Somerseth Cordova <axelsomerseth@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "autoprefixer": "^10.4.5",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "exports-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-loader": "^6.2.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
